@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Cameras</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="main-nav">
+          <div class="logo">
+            <a href="../index.html">GadgetBay</a>
+          </div>
+          
+          <div class="search-form">
+            <input id="searchBox" type="text" placeholder="Search...">
+            <button type="button" id="search">Search</button>
+          </div>
+          <div class="user-nav">
+            <a class="seller-btn" href="../manage/seller.html">Switch to Seller</a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <nav class="category-nav">
+            <div class="leftnav-banner">
+                <h2>Product Categories</h2>
+            </div>
+            <div class="category-content">
+                <ul class="category-list">
+                  <li id="all" data-category="" class="cateogry-list-item-all"><a href="../index.html" class="cateogry-list-item-link">All</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./laptops.html" class="cateogry-list-item-link">Laptops</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./desktops.html" class="cateogry-list-item-link">Desktops</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./monitors.html" class="cateogry-list-item-link">Monitors</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./printers.html" class="cateogry-list-item-link">Printers</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./tvs.html" class="cateogry-list-item-link">Tv's</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./projectors.html" class="cateogry-list-item-link">Projectors</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./phones.html" class="cateogry-list-item-link">Phones</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./tablets.html" class="cateogry-list-item-link">Tablets</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./cameras.html" class="cateogry-list-item-link">Cameras</a></li>
+                    <li data-category="" class="cateogry-list-item"><a href="./consoles.html" class="cateogry-list-item-link">Gaming Consoles</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <section class="products-grid">
+          <div class="products">
+        
+          </div>
+          <!-- More product cards go here -->
+        </section>
+        <aside class="cart-sidebar">
+          <h2>Shopping Cart</h2>
+          <hr class="cart-hr">
+          <div class="cart-total">
+            <h3 id="cartTotal">Cart Total: $0</h3>
+            <button class="checkout-button">Checkout</button>
+          </div>
+          
+        </aside>
+      </main>
+      <main class="container-hidden" id='container'>
+        <aside id='info'>
+          <h2 class="hhh">Cart Total: $</h2>
+          <p id="cancel">cancel</p>
+            <label for='paymentMethod'>Payment Method</label>
+            <select name='paymentMethod'>
+                <option>Visa</option>
+                <option>MasterCard</option>
+                <option>Amex</option>
+            </select>
+            
+    
+      <!--  Card Number -->
+      <label for='cardNumber'>Credit Card Number</label>
+      <input maxlength="16" id="cn" placeholder="Card Number" type='text' name='cardNumber' />
+
+      <!-- Card holder -->
+      <label for='cardholderName'>Cardholder Name</label>
+      <input id="chn" placeholder="First and last name" type='text' name='cardholderName' />
+
+      <!-- Expiration  -->
+      <label for='cardDate'>Expiration Date</label>
+      <input maxlength="5" id="ed" placeholder="MM/YY" type='text' name='cardDate' />
+      
+      <!-- CVV -->
+      <label for='cvv'>CVV</label>
+      <input maxlength="3" id="cv" placeholder="123" type='text' name='cvv' />
+    
+            
+    
+      <button id='makePayment'>Purchase</button>
+            
+        </aside>
+    </main>
+
+      <script type="module" src="../js/script.js"></script>
+      <script type="module" src="../js/db.js"></script>
+      <script defer type="module" src="../js/search.js"></script>
+
+</body>
+</html>
