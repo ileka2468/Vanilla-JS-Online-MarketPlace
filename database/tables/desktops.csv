@@ -1,0 +1,7 @@
+category,sku,priced,pricec,img,title,stock
+Desktops,D1,800,25,D1.jpg,"CyberCore i7 Gaming Desktop, Intel Core i7-10700 Processor, 16GB DDR4 RAM, 512GB NVMe SSD, NVIDIA GeForce RTX 3060, Windows 10 Home",25
+Desktops,D2,900,50,D2.jpg,"EliteStation Desktop, Intel Core i9-11900K Processor, 32GB DDR4 RAM, 1TB NVMe SSD, NVIDIA GeForce RTX 3080, Windows 10 Pro",13
+Desktops,D3,1020,55,D3.jpg,"Aura Desktop, AMD Ryzen 9 5950X Processor, 64GB DDR4 RAM, 2TB NVMe SSD, NVIDIA GeForce RTX 3090, Windows 11 Home",15
+Desktops,D4,1500,75,D4.jpg,"XTech Pro Desktop, Intel Core i9-11900K Processor, 64GB DDR4 RAM, 2TB NVMe SSD, NVIDIA GeForce RTX 3070, Windows 11 Pro",13
+Desktops,D5,3000,99,D5.jpg,"Velocity Desktop, AMD Ryzen 9 5900X Processor, 32GB DDR4 RAM, 1TB NVMe SSD, NVIDIA GeForce RTX 3080, Windows 10 Home",18
+Desktops,D6,1799,0,D6.jpg,"Nova Desktop, Intel Core i7-11700K Processor, 16GB DDR4 RAM, 512GB NVMe SSD, NVIDIA GeForce RTX 3060, Windows 10 Pro",22

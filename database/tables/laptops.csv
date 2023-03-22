@@ -1,0 +1,13 @@
+﻿category,sku,priced,pricec,img,title,stock
+Laptops,L1,760,55,L1.jpg,"Nitrobook 15.6"" HD Laptop, Intel Core i5-1135G7 Processor, 8GB RAM, 512GB SSD, Windows 10",5
+Laptops,L2,800,55,L2.jpg,"Maverick Pro 14"" FHD Laptop, AMD Ryzen 5 4500U Processor, 16GB RAM, 256GB SSD, Windows 10",3
+Laptops,L3,995,99,L3.jpg,"Aurora 13.3"" QHD+ Laptop, Intel Core i7-1165G7 Processor, 16GB RAM, 1TB SSD, Windows 10",4
+Laptops,L4,665,99,L4.jpg,"Zenbook 14"" FHD Laptop, AMD Ryzen 7 4700U Processor, 8GB RAM, 512GB SSD, Windows 10",10
+Laptops,L5,455,0,L5.jpg,"Vibebook 15.6"" HD Laptop, Intel Pentium Silver N5030 Processor, 4GB RAM, 256GB SSD, Windows 10 S",23
+Laptops,L6,1025,25,L6.jpg,"Cosmosbook 13.3"" QHD+ Laptop, Intel Core i5-1035G1 Processor, 8GB RAM, 512GB SSD, Windows 10",12
+Laptops,L7,785,50,L7.jpg,"Spectrebook 14"" FHD Laptop, AMD Ryzen 3 5300U Processor, 8GB RAM, 256GB SSD, Windows 10",12
+Laptops,L8,999,65,L8.jpg,"Horizonbook 15.6"" HD Laptop, Intel Celeron N4020 Processor, 4GB RAM, 128GB SSD, Windows 10 S",8
+Laptops,L9,550,75,L9.jpg,"Atlasbook 13.3"" QHD+ Laptop, Intel Core i7-10510U Processor, 16GB RAM, 512GB SSD, Windows 10",9
+Laptops,L10,440,25,L10.jpg,"Phoenixbook 14"" FHD Laptop, AMD Ryzen 5 3500U Processor, 8GB RAM, 256GB SSD, Windows 10",5
+Laptops,L11,775,50,L11.jpg,"Omega 2022 O5 Laptop, 13.3"" QHD Display, AMD Ryzen 7 4700U Processor, 16GB DDR4 RAM, 512GB PCIe NVMe SSD",5
+Laptops,L12,665,30,L12.jpg,SockBook Pro 16 inch Retina Display,5
